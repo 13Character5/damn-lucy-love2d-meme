@@ -44,7 +44,7 @@ function love.update(dt)
         end
     elseif step == 4 then -- Transition 3: xSlide
         if firstImageX > -677 then
-            firstImageX = firstImageX - 225 * dt
+            firstImageX = firstImageX - (677/1) * dt
         end
     end
 end
